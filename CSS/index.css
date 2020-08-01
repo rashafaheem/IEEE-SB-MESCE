@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 244, 244); 
+    background-size: cover;
+    font-family: sans-serif;
+  }
+.ieeesb h2 {
+  position: absolute;
+  left: 2%;
+  color: rgb(196, 194, 194);
+  }
+  
+.ieeelogo{
+  height: 90px;
+}
+
+nav {
+    position: fixed;
+    background: rgb(196, 194, 194);
+    min-height: 85px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+   }
+
+ul {
+  position: fixed;
+  right: 20%;
+  top: 0%;
+}
+
+ li {
+  display: inline;
+} 
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.menu:link, a:visited {
+  background-color: rgba(0, 0, 0, 0.274);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.menu:hover, a:active {
+  background-color:rgba(0, 0, 0, 0.568);
+}
+ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.mesce{
+  position: absolute;
+  left: 14%;
+}
+
+
+/* 
+.col-sm-8 {
+  position: absolute;
+  left: 39%;
+  top: 58%;
+  color: rgb(25, 30, 73);
+}
+
+.about {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 65%;
+  color: rgb(52, 55, 87);
+} */
