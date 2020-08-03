@@ -1,30 +1,31 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(245, 244, 244); 
-    background-size: cover;
-    font-family: sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 244, 244); 
+  background-size: cover;
+  font-family: sans-serif;
+}
+
 .ieeesb h2 {
   position: absolute;
   left: 2%;
   color: rgb(196, 194, 194);
-  }
-  
+}
+
 .ieeelogo{
   height: 90px;
 }
 
 nav {
-    position: fixed;
-    background: rgb(196, 194, 194);
-    min-height: 85px;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-   }
+  position: fixed;
+  background: rgb(196, 194, 194);
+  min-height: 85px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
 
 ul {
   position: fixed;
@@ -32,7 +33,7 @@ ul {
   top: 0%;
 }
 
- li {
+li {
   display: inline;
 } 
 
@@ -55,7 +56,7 @@ a.menu:link, a:visited {
 a.menu:hover, a:active {
   background-color:rgba(0, 0, 0, 0.568);
 }
- 
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -66,19 +67,48 @@ a.menu:hover, a:active {
   left: 14%;
 }
 
-
-/* 
-.col-sm-8 {
-  position: absolute;
-  left: 39%;
-  top: 58%;
-  color: rgb(25, 30, 73);
+.ieeelogo{
+  height: 50px;
+  width: 100px;
 }
 
-.about {
+.meslogo{
   position: absolute;
-  left: 5%;
-  right: 5%;
-  top: 65%;
-  color: rgb(52, 55, 87);
-} */
+  height: 50px;
+  width: 70px;
+}
+
+.media{
+  height: 20px;
+  width: 20px;
+}
+
+.about{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em
+}
+
+.btn-group{
+  position: absolute;
+  left: 23%;
+}
+.socButton {
+  color: #fff;
+  text-transform: uppercase;
+  background: #050404;
+  padding: 35px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.socButton:hover {
+  background: #050404;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgb(0, 0, 0);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0);
+  transition: all 0.4s ease 0s;
+}
