@@ -112,3 +112,45 @@ a.menu:hover, a:active {
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0);
   transition: all 0.4s ease 0s;
 }
+
+.carousel-inner img {vertical-align: middle;}
+
+.carousel-inner .carousel-caption {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 30px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+/* .footer-lists
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-lists li
+{
+  display:block
+} */
+.copyright-text
+{
+  margin:0
+}
